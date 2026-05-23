@@ -98,6 +98,8 @@ Run the full pipeline:
 python -m src.crimemind
 ```
 
+This command regenerates the model artifact, metrics, reports, and visuals in a single pass.
+
 Run the notebook:
 
 ```bash
