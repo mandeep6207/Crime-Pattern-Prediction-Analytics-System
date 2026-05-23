@@ -23,6 +23,8 @@ Each model was also evaluated with 5-fold stratified cross-validation on the tra
 ## Best Model
 Random Forest was selected as the production model based on weighted F1 score.
 
+The final hold-out metrics landed at roughly 0.98 accuracy, and the 5-fold training scores stayed within the same band.
+
 ## Classification Report
 ```text
 precision    recall  f1-score   support
