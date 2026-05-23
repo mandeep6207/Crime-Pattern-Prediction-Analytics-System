@@ -4,6 +4,8 @@ Crime Pattern Prediction and Crime Intelligence Analytics System.
 
 CrimeMind AI is a lightweight end-to-end machine learning project that analyzes crime incidents, highlights dangerous cities, studies operational patterns, predicts crime domains, and exports intelligence-ready reports.
 
+The current production configuration uses a realistic coarse crime-family abstraction, 5-fold cross-validation, and a final hold-out evaluation in the high-90s rather than a perfect score.
+
 ## Project Overview
 
 The project includes a full analytics workflow:
