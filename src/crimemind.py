@@ -108,6 +108,7 @@ def parse_datetime_columns(data: pd.DataFrame) -> pd.DataFrame:
 
 
 def derive_crime_family(description: str) -> str:
+    """Map the raw crime description into a coarse family label."""
     normalized = str(description).upper().strip()
     if normalized in {"ARSON", "FIREARM OFFENSE"}:
         return "fire"
@@ -124,6 +125,7 @@ def add_family_noise(data: pd.DataFrame, family_column: str, report_number_colum
         return noisy
 
     family_order = ["other", "violent", "fire", "traffic"]
+    # A small deterministic perturbation prevents the family feature from acting like a direct label proxy.
     mask = noisy[report_number_column].astype(int).mod(DESCRIPTION_NOISE_STEP).eq(0)
     noisy.loc[mask, family_column] = noisy.loc[mask, family_column].map(
         lambda value: family_order[(family_order.index(value) + 1) % len(family_order)] if value in family_order else value
