@@ -46,3 +46,4 @@ The pipeline exports all core charts into the visuals/ directory, including crim
 - Add geospatial hot-spot mapping when longitude and latitude become available.
 - Introduce time-series forecasting for city-level incident volume.
 - Expand to multilingual intelligence summaries and alerting.
+- Add API serving for downstream city safety dashboards.
