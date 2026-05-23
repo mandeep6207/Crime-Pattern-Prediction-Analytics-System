@@ -127,3 +127,4 @@ The current production run is realistic rather than perfect. The latest hold-out
 - Extend to real-time alerting and API serving
 - Add explainability summaries for case analysts
 - Build city-level forecasting for incident volume trends
+- Publish the model behind a lightweight REST endpoint for operational use
