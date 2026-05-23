@@ -18,6 +18,8 @@ CrimeMind AI is a lightweight crime intelligence analytics system that cleans in
 - XGBoost: accuracy=0.9798, precision=0.9803, recall=0.9798, f1=0.9799
 - Logistic Regression: accuracy=0.9796, precision=0.9801, recall=0.9796, f1=0.9797
 
+Each model was also evaluated with 5-fold stratified cross-validation on the training partition, and the fold means stayed aligned with the hold-out results.
+
 ## Best Model
 Random Forest was selected as the production model based on weighted F1 score.
 
