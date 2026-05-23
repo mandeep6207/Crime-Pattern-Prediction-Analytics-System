@@ -1,0 +1,1 @@
+"""CrimeMind AI package."""

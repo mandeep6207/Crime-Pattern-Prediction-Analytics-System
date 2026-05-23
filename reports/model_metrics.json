@@ -1,0 +1,75 @@
+{
+  "best_model": "Random Forest",
+  "best_metrics": {
+    "model": "Random Forest",
+    "accuracy": 0.9798306772908366,
+    "precision_weighted": 0.980310953454996,
+    "recall_weighted": 0.9798306772908366,
+    "f1_weighted": 0.9799402524946387,
+    "train_seconds": 17.4324,
+    "cv_accuracy_mean": 0.9800485624427029,
+    "cv_precision_weighted_mean": 0.9805490131997718,
+    "cv_recall_weighted_mean": 0.9800485624427029,
+    "cv_f1_weighted_mean": 0.9801700479379288,
+    "cv_accuracy_std": 0.0006845372242636039,
+    "cv_precision_weighted_std": 0.0006329335049201108,
+    "cv_recall_weighted_std": 0.0006845372242636039,
+    "cv_f1_weighted_std": 0.0006722873099641341
+  },
+  "model_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9795816733067729,
+      "precision_weighted": 0.9800777634688198,
+      "recall_weighted": 0.9795816733067729,
+      "f1_weighted": 0.979693880785363,
+      "train_seconds": 5.9718,
+      "cv_accuracy_mean": 0.9797061742120109,
+      "cv_precision_weighted_mean": 0.9802255917219103,
+      "cv_recall_weighted_mean": 0.9797061742120109,
+      "cv_f1_weighted_mean": 0.9798304360260215,
+      "cv_accuracy_std": 0.0006193902138130346,
+      "cv_precision_weighted_std": 0.0005640308014819528,
+      "cv_recall_weighted_std": 0.0006193902138130346,
+      "cv_f1_weighted_std": 0.00060758738092457
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9798306772908366,
+      "precision_weighted": 0.980310953454996,
+      "recall_weighted": 0.9798306772908366,
+      "f1_weighted": 0.9799402524946387,
+      "train_seconds": 17.4324,
+      "cv_accuracy_mean": 0.9800485624427029,
+      "cv_precision_weighted_mean": 0.9805490131997718,
+      "cv_recall_weighted_mean": 0.9800485624427029,
+      "cv_f1_weighted_mean": 0.9801700479379288,
+      "cv_accuracy_std": 0.0006845372242636039,
+      "cv_precision_weighted_std": 0.0006329335049201108,
+      "cv_recall_weighted_std": 0.0006845372242636039,
+      "cv_f1_weighted_std": 0.0006722873099641341
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.9798306772908366,
+      "precision_weighted": 0.980310953454996,
+      "recall_weighted": 0.9798306772908366,
+      "f1_weighted": 0.9799402524946387,
+      "train_seconds": 29.4766,
+      "cv_accuracy_mean": 0.9799863104774984,
+      "cv_precision_weighted_mean": 0.980486366630281,
+      "cv_recall_weighted_mean": 0.9799863104774984,
+      "cv_f1_weighted_mean": 0.9801085449916208,
+      "cv_accuracy_std": 0.0007532874731403171,
+      "cv_precision_weighted_std": 0.0007008697999696984,
+      "cv_recall_weighted_std": 0.0007532874731403171,
+      "cv_f1_weighted_std": 0.0007397923456934473
+    }
+  ],
+  "target_classes": [
+    "Fire Accident",
+    "Other Crime",
+    "Traffic Fatality",
+    "Violent Crime"
+  ]
+}

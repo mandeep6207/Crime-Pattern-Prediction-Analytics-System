@@ -1,0 +1,10 @@
+                  precision    recall  f1-score   support
+
+   Fire Accident       0.95      0.98      0.97       765
+     Other Crime       1.00      0.98      0.99      4590
+Traffic Fatality       0.96      0.98      0.97       383
+   Violent Crime       0.96      0.98      0.97      2294
+
+        accuracy                           0.98      8032
+       macro avg       0.97      0.98      0.97      8032
+    weighted avg       0.98      0.98      0.98      8032
