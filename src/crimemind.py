@@ -40,6 +40,7 @@ except Exception:  # pragma: no cover - optional fallback
 
 
 RANDOM_STATE = 42
+# Every 50th incident gets a tiny family perturbation to keep the feature from becoming a label proxy.
 DESCRIPTION_NOISE_STEP = 50
 sns.set_theme(style="whitegrid", context="talk")
 
