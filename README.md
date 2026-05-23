@@ -54,6 +54,8 @@ Features are engineered from the incident timeline and case context, including:
 - `victim_age_group`
 - `report_delay_hours`
 
+CrimeMind AI also converts the raw crime description into a coarse crime-family feature and applies a very small deterministic perturbation so the classifier learns a realistic pattern instead of memorizing the exact label.
+
 Models compared:
 
 - Logistic Regression
